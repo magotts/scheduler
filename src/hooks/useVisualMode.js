@@ -29,17 +29,9 @@ export default function useVisualMode(initial) {
 
     
   }
-  
-  //     // We need to put a constraint on our back function. It should not allow the user to go back past the initial mode. This means that our history array will always need to have a length that is greater than or equal to 1. This test will confirm that navigating back from the initial mode will not change the mode value.
-  //   if (history.length >= 1) {
-  //     setMode(history.length - 1)
-  //     setHistory(prev => {
-        
-  //   })
-  //   }
-  
-
+  // mode is the current history
   return { mode: history[history.length - 1], transition, back };
+  
 }
 
 
