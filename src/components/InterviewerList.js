@@ -14,21 +14,6 @@ export default function InterviewerList(props) {
   <ul className="interviewers__list">{parsedInterviewerList}</ul>
 </section>
   )
-
-  // return props.interviewers.map(interview => (
-  //   <section className="interviewers">
-  //     <h4 className="interviewers__header text--light">Interviewer</h4>
-  // <ul>
-  //   <InterviewerListItem 
-  //       id={interview.id}
-  //       //name={interview.name} 
-  //       avatar={interview.avatar}
-  //       selected={interview.name === props.name}
-  //       setInterviewer={props.name}  
-  //     />
-  //    </ul>
-  //    </section>)
-  //     )
       
 };
 
